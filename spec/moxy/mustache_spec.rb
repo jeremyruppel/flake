@@ -17,4 +17,15 @@ describe Moxy::Mustache do
     end
   end
   
+  context 'a mustache proxy with overrides' do
+    
+    before do
+      @moxy = Moxy::Mustache.new :status => 'baller'
+    end
+    
+    it 'should return the overridden property' do
+      @moxy.status.should eq( 'baller' )
+    end
+  end
+  
 end
