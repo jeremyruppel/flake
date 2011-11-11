@@ -1,4 +1,4 @@
-Moxy: The Mustache Proxy
+Flake: The Mustache Proxy
 ========================
 
 **TODO:** Write the README.

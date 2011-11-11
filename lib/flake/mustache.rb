@@ -1,4 +1,4 @@
-module Moxy
+module Flake
   class Mustache
     
     def initialize( options={} )

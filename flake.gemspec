@@ -1,17 +1,17 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "moxy/version"
+require "flake/version"
 
 Gem::Specification.new do |s|
-  s.name        = "moxy"
-  s.version     = Moxy::VERSION
+  s.name        = "flake"
+  s.version     = Flake::VERSION
   s.authors     = ["Jeremy Ruppel"]
   s.email       = ["jeremy.ruppel@gmail.com"]
   s.homepage    = ""
   s.summary     = %q{A simple mustache'd proxy object}
   s.description = %q{A simple mustache'd proxy object'}
 
-  s.rubyforge_project = "moxy"
+  s.rubyforge_project = "flake"
   
   s.add_development_dependency "rspec", "~> 2.6.0"
 

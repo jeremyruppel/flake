@@ -1,4 +1,4 @@
-module Moxy
+module Flake
   module Bang
     
     def bang?
