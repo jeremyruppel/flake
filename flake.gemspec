@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Flake::VERSION
   s.authors     = ["Jeremy Ruppel"]
   s.email       = ["jeremy.ruppel@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/jeremyruppel/flake"
   s.summary     = %q{A simple mustache'd proxy object}
   s.description = %q{A simple mustache'd proxy object'}
 
